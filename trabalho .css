@@ -1,0 +1,179 @@
+
+body {
+
+    background-color: burlywood;
+   
+
+}
+
+    P.blocktext {
+        margin: auto;
+        background-color:royalblue ;
+        width: 30em
+    }
+
+
+    .corpo{
+
+
+        margin:auto;
+        width: 960px; 
+        
+
+
+    }
+
+
+    .conteudo{
+
+       display: table;
+
+
+    }
+    .imagem
+    {
+          display: table-cell;
+           float: left;
+    }
+
+    .texto{
+           
+          float: right;
+        display: table-cell;
+        width: 200px;
+        
+    }
+
+
+
+    .ap {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+
+    h1{
+        text-align: center;
+        font-family: Verdana;
+        margin: 0;
+        padding: 7px 0px;
+        width: 30%;
+        float: left;
+        color: white;
+        background-color:darkblue;
+
+
+
+
+
+
+    }
+
+    .cabecalho{
+
+     display: flex;
+     
+     width: 50px;
+      margin: 50px;
+
+      height: 30px;
+
+    
+
+    }
+
+    .menu{
+
+       background-color: darkblue;
+       padding: 10px;
+       
+       width: 60%;
+       float: right;
+       display: inline-flex;
+       height: 30px;
+
+
+       
+       
+      
+     
+
+
+
+
+    }
+
+    .menu>ul{
+        
+        margin: 10px auto;
+        padding: 0px;
+        
+           
+       
+           
+
+        
+
+
+
+
+    }
+
+    
+
+    .menu> li{
+
+      list-style: none;
+      color: white;
+
+      line-height: 30px;
+      width: inherit;
+      
+    }
+
+
+    h2{
+
+      font-size: medium;
+       color: black;
+
+           
+
+
+    }
+
+    .direita{
+      display: block;
+     
+     margin-left: 200px;
+      height: 10px;
+      width: 200px;
+     
+    }
+        
+    .tt{
+
+
+        margin:auto;
+        width: 700px;      
+        margin-left: 10px;
+    }
+
+        
+    .tx{
+        width: 500px;   
+        font-size: 30px;
+        color:green;
+        margin-left: 150px;
+
+    }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color:royalblue;
+        color: white;
+        text-align: center;
+      }

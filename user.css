@@ -1,13 +1,6 @@
 body {
 
-  
-  background: url("chuva1.jnp") no-repeat ;
-    background-size: cover;
-    font-family: sans-serif;
-    margin:0;
-    padding: 0;
-    background-position: center;
-   
+  background: url("chuva.png") no-repeat ;
 }
   .lgb {
     width: 320px;
@@ -31,7 +24,7 @@ body {
      height: 100px;
      border-radius: 50%;
      position: absolute;
-     top: -50%;
+     top: -30px;
        left: calc(50% - 50px);
 
   }

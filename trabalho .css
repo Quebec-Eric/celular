@@ -43,7 +43,7 @@ body {
           float: right;
         display: table-cell;
         width: 200px;
-        color: black;
+        color:#fff;
         
     }
 
@@ -60,7 +60,7 @@ body {
 
     h1{
         text-align: center;
-        font-family: Impact;
+        font-family: 'Courier New', Courier, monospace;
         margin: 0;
         padding: 7px 0px;
         width: 36%;
@@ -204,3 +204,29 @@ body {
       
 
       }
+      a:link, a:visited {
+        text-decoration: none;
+        
+        
+        }
+      a:hover {
+        text-decoration: underline; 
+        color: #f00
+        }
+      a:active {
+        text-decoration: none
+        }
+
+        li a {
+
+         columns: #000000;;
+
+        }
+
+        .inicio{
+
+          color: #ffffff;
+
+
+
+        }

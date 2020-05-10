@@ -43,7 +43,9 @@ body {
           float: right;
         display: table-cell;
         width: 200px;
-        color:#fff;
+        color:black;
+        margin: 10px;
+        list-style-type: none;
         
     }
 
@@ -230,3 +232,48 @@ body {
 
 
         }
+
+        .fl{
+
+         
+          display: flex;
+          margin-left: 50px;
+
+          color: #fff;
+         
+               
+
+
+
+        }
+
+
+        h7{
+
+
+         font-size: large;
+          display: flex;
+          margin-left: 50px;
+
+          color: #fff;
+        }
+
+        h8{
+
+          font-size: large;
+         
+       
+          color: #fff;
+
+
+
+        }
+
+      .tb{
+
+       color: #fff;
+       text-decoration: none;
+       list-style-type: none;
+
+
+      }

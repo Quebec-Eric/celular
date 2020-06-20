@@ -31,8 +31,8 @@ function showPosition(position) {
   "<br>Longitude: " + position.coords.longitude;
 }
   
-//  19.8527° S, 43.9560° W  palpulha
-//  atitude: 19° 48' 57'' Sul, Longitude: 43° 57' 15'' Oeste. cntro sul
+//  19.8527° S, 43.9560° W  pampulha
+//  atitude: 19° 48' 57'' Sul, Longitude: 43° 57' 15'' Oeste. centro sul
 //19.8172° S, 43.9519° venda nova 
 
  

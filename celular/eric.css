@@ -6,10 +6,18 @@ header{
 
 
 } 
-button{   
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#opa1{   
+    
+ 
+
+  overflow: hidden;
+    margin: 1%;
+    width: -webkit-fill-available;
 
 }
+p#demo{
 
+    padding: 2%;
+    border: 1px solid #000;
+    
+}

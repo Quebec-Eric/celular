@@ -6,8 +6,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="eric.css">
-  <script src="aula.js"> </script>
-  <!-- Bootstrap CSS -->
+
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
@@ -31,20 +31,20 @@
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">USER</a>
+            <a class="nav-link" href="user.html">USER</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#">Ultimas loc</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown link
+              +
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="#">informacoes</a>
+              <a class="dropdown-item" href="#">mapas</a>
+              <a class="dropdown-item" href="#">agora</a>
             </div>
           </li>
         </ul>
@@ -54,12 +54,11 @@
 
 
 </header>
- 
-<body>
-  
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<body>
+
+
+
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
@@ -74,71 +73,67 @@
     margin-right:auto;
     display: flex;
     ">
-    <button id="localização">Minha localização</button>
+  <button id="opa1" onclick="Loc()">Minha localização</button>
+
+  <div>
+    <p id="demo"></p>
+    <p id="longitude"></p>
+
+  </div>
+
   <table class="table">
     <thead class="table table-dark">
       <tr>
-        <th scope="col">#</th>
-        <th scope="col">1</th>
-        <th scope="col">Last</th>
-        <th scope="col">Handle</th>
+        <th scope="col">Gravidade</th>
+        <th scope="col">Mais perigoso</th>
+        <th scope="col">Desvio</th>
+        <th scope="col"></th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <th scope="row">1</th>
-        <td>BH</td>
-        <td>Cidade</td>
-        <td>@mdo</td>
+        <td id="1L">BH</td>
+        <td id="1D">Cidade</td>
+
       </tr>
       <tr>
         <th scope="row">2</th>
-        <td>Jacob</td>
-        <td>Thornton</td>
-        <td>@fat</td>
+        <td id="2L">Jacob</td>
+        <td id="2D">Thornton</td>
+
       </tr>
       <tr>
         <th scope="row">3</th>
-        <td>Larry</td>
-        <td>the Bird</td>
-        <td>@twitter</td>
+        <td id="3L" >Larry</td>
+        <td id="3D">the Bird</td>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row">1</th>
+        <td id="4L">BH</td>
+        <td id="4D">Cidade</td>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td id="5L">Jacob</td>
+        <td id="5D">Thornton</td>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td id="6L">Larry</td>
+        <td id="6D">the Bird</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
 
-  <table class="table">
-    <thead class="thead-light">
-      <tr>
-        <th scope="col">#</th>
-        <th scope="col">First</th>
-        <th scope="col">Last</th>
-        <th scope="col">Handle</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th scope="row">1</th>
-        <td>Mark</td>
-        <td>Otto</td>
-        <td>@mdo</td>
-      </tr>
-      <tr>
-        <th scope="row">2</th>
-        <td>Jacob</td>
-        <td>Thornton</td>
-        <td>@fat</td>
-      </tr>
-      <tr>
-        <th scope="row">3</th>
-        <td>Larry</td>
-        <td>the Bird</td>
-        <td>@twitter</td>
-      </tr>
-    </tbody>
-  </table>
 
 
 
 </body>
+<script src="aula.js"> </script>
 
 </html>

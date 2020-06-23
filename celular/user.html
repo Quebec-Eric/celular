@@ -39,23 +39,23 @@
         </div>
     </div>
 
-    
+
     <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
-            <div class="modal-content">
+            <div class="modal-content" style=" background: black">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="loginModalLabel">Login App</h5>
+                    <h5 class="modal-title" id="loginModalLabel" style="color: white;"  >Login App</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body" >
                     <div id="login-box" class="col-md-12">
                         <form id="login-form" class="form" method="post" onsubmit="loginUser (this)">
-                            <h3 class="text-center text-info">Novo usuário</h3>
+                            <h3 class="text-center text-info">APOENA</h3>
                             <div class="form-group">
-                                <label for="login" class="text-info">Usuário</label><br>
+                                <label for="login" class="text-info">Seu usuario </label><br>
                                 <input type="text" name="txt_login" id="txt_login" class="form-control">
                             </div>
                             <div class="form-group">
@@ -63,7 +63,7 @@
                                 <input type="text" name="txt_nome" id="txt_nome" class="form-control">
                             </div>
                             <div class="form-group">
-                                <label for="email" class="text-info">email</label><br>
+                                <label for="email" class="text-info">@</label><br>
                                 <input type="text" name="txt_email" id="txt_email" class="form-control">
                             </div>
                             <div class="form-group">
@@ -71,7 +71,7 @@
                                 <input type="password" name="txt_senha" id="txt_senha" class="form-control">
                             </div>
                             <div class="form-group">
-                                <label for="senha2" class="text-info">Confirmação de Senha</label><br>
+                                <label for="senha2" class="text-info">Repita a senha</label><br>
                                 <input type="password" name="txt_senha2" id="txt_senha2" class="form-control">
                             </div>
                         </form>
@@ -87,26 +87,26 @@
 
     <script src="login.js"></script>
     <script>
-        var adm="Eric";
-        var adms="453"
+        var adm = "Eric";
+        var adms = "453"
 
-       
+
         function processaFormLogin(event) {
-            
+
             event.preventDefault();
 
-            
+
             var username = document.getElementById('username').value;
             var password = document.getElementById('password').value;
 
             resultadoLogin = loginUser(username, password);
-            if(adm==username&&adms==password){
+            if (adm == username && adms == password) {
                 window.location.href = 'adm.html';
             }
-             else if (resultadoLogin) {
+            else if (resultadoLogin) {
                 window.location.href = 'celular.html';
             }
-            else { 
+            else {
                 alert('Usuário ou senha incorretos');
             }
         }
@@ -114,7 +114,7 @@
         function salvaLogin(event) {
             event.preventDefault();
 
-            
+
             let login = document.getElementById('txt_login').value;
             let nome = document.getElementById('txt_nome').value;
             let email = document.getElementById('txt_email').value;
@@ -125,20 +125,20 @@
                 return
             }
 
-            
+
             addUser(nome, login, senha, email);
             alert('Usuário salvo com sucesso. Proceda com o login para ');
 
-            
-            
+
+
             $('#loginModal').modal('hide');
         }
 
-        
+
         document.getElementById('login-form').addEventListener('submit', processaFormLogin);
 
 
-        
+
         document.getElementById('btn_salvar').addEventListener('click', salvaLogin);        
     </script>
 

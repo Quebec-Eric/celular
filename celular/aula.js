@@ -291,22 +291,26 @@ function showPosition(position) {
     pD6.innerHTML = "Regiao R.coqueiros"
 
   }
+  else {
 
 
-  pl1.innerHTML = "Está em um local seguro"
-  pl2.innerHTML = "Está em um local seguro"
-  pl3.innerHTML = "Está em um local seguro"
-  pl4.innerHTML = "Está em um local seguro"
-  pl5.innerHTML = "Está em um local seguro"
-  pl6.innerHTML = "Está em um local seguro"
+
+    pl1.innerHTML = "Está em um local seguro"
+    pl2.innerHTML = "Está em um local seguro"
+    pl3.innerHTML = "Está em um local seguro"
+    pl4.innerHTML = "Está em um local seguro"
+    pl5.innerHTML = "Está em um local seguro"
+    pl6.innerHTML = "Está em um local seguro"
 
 
-  pD1.innerHTML = "Está em um local seguro";
-  pD2.innerHTML = "Está em um local seguro";
-  pD3.innerHTML = "Está em um local seguro";
-  pD4.innerHTML = "Está em um local seguro"
-  pD5.innerHTML = "Está em um local seguro";
-  pD6.innerHTML = "Está em um local seguro";
+    pD1.innerHTML = "Está em um local seguro";
+    pD2.innerHTML = "Está em um local seguro"
+    pD3.innerHTML = "Está em um local seguro";
+    pD4.innerHTML = "Está em um local seguro"
+    pD5.innerHTML = "Está em um local seguro";
+    pD6.innerHTML = "Está em um local seguro";
+
+  }
 }
 function showError(error) {
   switch (error.code) {

@@ -225,7 +225,7 @@ function showPosition(position) {
     pl5.innerHTML = " Ribeirão Isidoro"
     pl6.innerHTML = ""
 
-    pD1.innerHTML = "R.Paulo do Couto e Silva";
+    pD1.innerHTML = "R.Paulo do Couto e Silva"
     pD2.innerHTML = "R.Dr.Cinyras Ladeira";
     pD3.innerHTML = "R.Raumundo Arruda ";
     pD4.innerHTML = "R Dr.Alexandre Santori";
@@ -304,7 +304,7 @@ function showPosition(position) {
 
 
     pD1.innerHTML = "Está em um local seguro";
-    pD2.innerHTML = "Está em um local seguro"
+    pD2.innerHTML = "Está em um local seguro";
     pD3.innerHTML = "Está em um local seguro";
     pD4.innerHTML = "Está em um local seguro"
     pD5.innerHTML = "Está em um local seguro";

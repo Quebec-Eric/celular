@@ -285,7 +285,7 @@ function showPosition(position) {
 
     pD1.innerHTML = "Av.Cristiano machado"
     pD2.innerHTML = "Av.Cachoeirinha"
-    pD3.innerHTML = "R.Antenor de Abreu"
+    pD3.innerHTML = "R.Antenor de Abreu";
     pD4.innerHTML = "R. Indianópolis"
     pD5.innerHTML = "R.Guarapá"
     pD6.innerHTML = "Regiao R.coqueiros"

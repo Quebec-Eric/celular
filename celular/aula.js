@@ -125,7 +125,7 @@ function showPosition(position) {
 
 
 
-  if (novoLA != Barreiro1LA && novoLO != Barreiro1LO || novoLA != Barreiro2LA && novoLO != Barreiro2LO) {
+  if (novoLA == Barreiro1LA && novoLO == Barreiro1LO || novoLA == Barreiro2LA && novoLO == Barreiro2LO) {
     pl1.innerHTML = "Tereza Cristina";
     pl2.innerHTML = "Córrego Olaria";
     pl3.innerHTML = "Córrego do Túnel";

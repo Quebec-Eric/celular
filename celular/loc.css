@@ -1,0 +1,34 @@
+body,html{
+
+     height: 100%;
+     margin: 0;
+     font-family: Arial, Helvetica, sans-serif;
+     
+
+}
+
+.bg{
+
+  background-image: url("imgf.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center ;
+  background-attachment: fixed;
+
+
+}
+button#btnPesquisa{
+
+
+    margin-left: auto;
+    margin-right: auto;
+    float: unset;
+    display: table;
+    background-color: green;
+}
+.box-noticia {
+    margin: 10px 0px;
+    overflow: auto;
+    color: black;
+    clear: both;
+}

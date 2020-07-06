@@ -14,7 +14,7 @@ function fazerrec() {
    var d=document.getElementById("data").innerHTML=(xhr.data);
    var t=document.getElementById("tempo").innerHTML=(xhr.time);
    var de=document.getElementById("descriptio").innerHTML=(xhr.description);
-   var a=document.getElementById("atualmet").innerHTML=(xhr.atualmente);
+   var a=document.getElementById("atualment").innerHTML=(xhr.atualmente);
    var a=document.getElementById("d2").innerHTML=(xhr.previsão.data);
    var a=document.getElementById("um").innerHTML=(xhr.previsão.umidade);
    var a=document.getElementById("win").innerHTML=(xhr.description);
